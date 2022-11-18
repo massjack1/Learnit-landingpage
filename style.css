@@ -96,6 +96,10 @@ nav ol li:hover a {
     z-index: 1;
 }
 
+.fa.fa-search {
+    margin-left: -33px;
+}
+
 .search-box span::after {
     height: 100%;
     width: 0%;
