@@ -1,0 +1,109 @@
+/* Global*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1B5668;
+}
+
+/* Global ends here */
+/* Navigation */
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #1B5668;
+    padding: 15px 30px; 
+}
+
+nav .logo {
+    font-size: 1.7rem;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+nav ol li {
+    margin: 0 6px;
+}
+
+nav ol li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    font-size: .95rem;
+}
+
+.button {
+    background-color: #5BCCFF;
+    padding: 8px 28px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.button:hover {
+    background-color: #74c9f1;
+}
+
+nav ol li:hover a {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #257790;
+}
+
+.search-box {
+    display: flex;
+    margin: auto 0;
+    height: 33px;
+    line-height: 33px;
+}
+
+.search-box input {
+    border: 2px solid #1E3A50;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    height: 100%;
+    padding: 0 10px;
+    font-size: .95rem;
+    font-family: "Poppins", sans-serif;
+    width: 278px;
+}
+
+.search-box span {
+    color: #162b3b;
+    font-size: .95rem;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.search-box span::after {
+    height: 100%;
+    width: 0%;
+    content: '';
+    background-color: rgb(155, 24, 24);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* Navigation ends here */
