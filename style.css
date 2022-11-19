@@ -116,10 +116,6 @@ section {
    height: 30vh; 
 }
 
-.hero {
-
-}
-
 .container {
     max-width: 60rem;
     padding: 310px 600px;
@@ -129,5 +125,11 @@ section {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.hero {
+
+}
+
+
 
 /*Hero Section ends here*/
